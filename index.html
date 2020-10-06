@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+        </div>
+            <div class="modal">
+             <div class="slide">
+                 <div class="slide1">
+                <h4>Choose Location</h4>
+                <i id="cancel" class="fas fa-times"></i>
+                </div>
+            <form class="form" onsubmit="event.preventDefault()">
+              <label>City</label>
+              <input class="input" type="text">
+              
+
+              <div class="button1">
+                    <button class="btn3">Close</button>
+                    <button class="button4">Save Change</button>
+              </div>
+          </form>
+          </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
