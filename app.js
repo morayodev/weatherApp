@@ -14,7 +14,7 @@ let box = document.querySelector(".input");
 
 //want to fetch API
 async function getWeather(location) {
-    let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=abcde9bc74c343f1453d187cf4666743`);
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=abcde9bc74c343f1453d187cf4666743`);
     //return reponse json
     return response.json();
     
